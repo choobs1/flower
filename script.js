@@ -1,3 +1,5 @@
+// Original code fom https://codepen.io/Pedro-Ondiviela/pen/eYxyPgR
+
 const sparklesTl = gsap.timeline({ repeat: -1 });
 
 sparklesTl.to('.flower__sparkle:nth-child(3n)', { y: 10, opacity: 0.5, duration: 2 })
